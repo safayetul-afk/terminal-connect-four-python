@@ -35,14 +35,7 @@ Player 'X', choose a column (0-6):
 
 ---
 
-## 🛠️ CSE110 Technical Concepts Demonstrated
 
-1. **2D Array State Management:** Represents the game board using a $6 \times 7$ nested list (`board[row][col]`), tracking spatial board positions.
-2. **Pass-by-Reference Mutation:** Updates board state in place inside functions (`drop_piece`) by mutating heap memory addresses without reallocating arrays.
-3. **Matrix Traversal & Boundary Checking:** Prevents `IndexError` during win detection by bounding loop indices (`COLS - 3`, `ROWS - 3`).
-4. **Modular Arithmetic:** Uses `turn % 2` to cleanly toggle player turns between Player 0 (`'X'`) and Player 1 (`'O'`).
-
----
 
 ## 📋 Running the Project
 
